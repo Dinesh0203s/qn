@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Algebra Question Bank - Unit Wise</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            line-height: 1.4;
+            margin: 0;
+            padding: 20px;
+            background: white;
+            color: #333;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #000;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .institution {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .course-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #1a472a;
+        }
+        
+        .course-code {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        .unit-section {
+            margin: 40px 0;
+            page-break-inside: avoid;
+        }
+        
+        .unit-header {
+            background: linear-gradient(135deg, #2c5530, #3a6b3f);
+            color: white;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .question-category {
+            margin: 25px 0;
+        }
+        
+        .category-title {
+            background: #f0f8f0;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            border-left: 4px solid #2c5530;
+            margin-bottom: 15px;
+            color: #1a472a;
+        }
+        
+        .question {
+            margin: 12px 0;
+            padding: 8px 0;
+            border-bottom: 1px dotted #ccc;
+        }
+        
+        .question-number {
+            font-weight: bold;
+            color: #2c5530;
+            display: inline-block;
+            width: 25px;
+        }
+        
+        .question-text {
+            display: inline;
+            line-height: 1.5;
+        }
+        
+        .matrix {
+            font-family: 'Courier New', monospace;
+            background: #f9f9f9;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .page-break {
+            page-break-before: always;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #ccc;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        @media print {
+            body { 
+                font-size: 12px; 
+                margin: 15px;
+            }
+            .unit-section {
+                page-break-after: always;
+            }
+            .unit-section:last-child {
+                page-break-after: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="institution">KIT-Kalaignarkarunanidhi Institute of Technology</div>
+        <div class="course-title">LINEAR ALGEBRA</div>
+        <div class="course-code">B23MAT405 - Question Bank (Unit Wise)</div>
+        <div style="font-size: 14px; margin-top: 10px;">Regulation: R2023 | Credits: L-3, T-0, P-0, C-3</div>
+    </div>
+
+    <!-- UNIT I -->
+    <div class="unit-section">
+        <div class="unit-header">UNIT - I: MATRICES AND SYSTEM OF LINEAR EQUATIONS</div>
+        
+        <div class="question-category">
+            <div class="category-title">Short Answer Questions (2-3 Marks)</div>
+            
+            <div class="question">
+                <span class="question-number">1.</span>
+                <span class="question-text">List the QR factorization procedure.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">2.</span>
+                <span class="question-text">Define LU factorization procedure.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">3.</span>
+                <span class="question-text">Define singular value decomposition.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">4.</span>
+                <span class="question-text">If A = <span class="matrix">(1 2 3; 2 3 1; -2 -3 1; 4 1 2)</span>, find R(A).</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">5.</span>
+                <span class="question-text">Find the value of K so that the rank of matrix A = <span class="matrix">(1 2 3; 2 4 k)</span> is one.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">6.</span>
+                <span class="question-text">Find x and y by Gauss elimination method: 5x + 4y = 15; 3x + 7y = 12</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">7.</span>
+                <span class="question-text">Find x and y by Gauss elimination method: x + y = 2; 2x + 3y = 5</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">8.</span>
+                <span class="question-text">List the difference between Gaussian elimination method and Gauss-Jordan method.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">9.</span>
+                <span class="question-text">Define the principle used in Gauss Jordan method.</span>
+            </div>
+        </div>
+
+        <div class="question-category">
+            <div class="category-title">Long Answer Questions (10-15 Marks)</div>
+            
+            <div class="question">
+                <span class="question-number">1.</span>
+                <span class="question-text">Construct the singular value decomposition for the matrix A = <span class="matrix">[1 2 2; 2 1 2; 2 2 1]</span></span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">2.</span>
+                <span class="question-text">Construct the singular value decomposition for the matrix A = <span class="matrix">[2 2 -2; 2 2 -2; -2 -2 6]</span></span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">3.</span>
+                <span class="question-text">Construct a QR decomposition for the matrix A = <span class="matrix">[0 1 1 1; 1 0 1 1; 1 1 0 1; 1 1 1 0]</span></span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">4.</span>
+                <span class="question-text">Construct a LU decomposition for the matrix with system: 2x + 3y + 10z = 3, 4x + 2y + 20z = ?, 5x + 2y + 12z = ?</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">5.</span>
+                <span class="question-text">Identify the Rank of the matrix A = <span class="matrix">(1 2 5; 2 3 4; 3 5 7)</span></span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">6.</span>
+                <span class="question-text">Identify the Rank of the matrix A = <span class="matrix">[1 1 -3; 4 -2 6; 15 -3 9; -1 8 21]</span></span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">7.</span>
+                <span class="question-text">Identify the rank of the matrix <span class="matrix">(1 2 3 -1; -2 -1 -3 -1; 1 0 1 1; 0 1 1 -1)</span> by reducing it to Echelon Form.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">8.</span>
+                <span class="question-text">Identify the Echelon form of the matrix A = <span class="matrix">[0 -1 2 3; 2 3 4 5; 1 3 -1 2; 3 2 4 1]</span></span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">9.</span>
+                <span class="question-text">Construct that the equations x + y + z = 6, x + 2y - 2z = -3, 2x + 3y + z = 11 are Consistent and hence solve.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">10.</span>
+                <span class="question-text">Identify the values of λ and μ for which x + y + 2z = 3, 2x - y + 3z = 4, 5x - y + λy = μ have: i) unique solution, ii) Many solutions, iii) no solution</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- UNIT II -->
+    <div class="unit-section page-break">
+        <div class="unit-header">UNIT - II: EIGEN VALUE PROBLEMS AND MATRIX DECOMPOSITION</div>
+        
+        <div class="question-category">
+            <div class="category-title">Short Answer Questions (2-3 Marks)</div>
+            
+            <div class="question">
+                <span class="question-number">1.</span>
+                <span class="question-text">List the Formula for Jacobi's rotation method.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">2.</span>
+                <span class="question-text">List the Formula for Jacobi's rotation method in 3×3 matrix.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">3.</span>
+                <span class="question-text">Find the Eigenvalue and Eigenvector of the matrix <span class="matrix">[1 1; 1 1]</span></span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">4.</span>
+                <span class="question-text">What is the use of power method?</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">5.</span>
+                <span class="question-text">Find the algebraic multiplicity of all Eigen values of A = <span class="matrix">[3 1 0; 0 3 4; 0 0 4]</span></span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">6.</span>
+                <span class="question-text">Find the matrix A = <span class="matrix">[1 2; 0 1]</span> ∈ M₂ₓ₂(R) for diagonalizable.</span>
+            </div>
+        </div>
+
+        <div class="question-category">
+            <div class="category-title">Long Answer Questions (10-15 Marks)</div>
+            
+            <div class="question">
+                <span class="question-number">1.</span>
+                <span class="question-text">Identify all Eigen values and corresponding eigenvectors of A = <span class="matrix">[2 3 1/√2; 3 2 1/√2; 1/√2 1/√2 5]</span> using Jacobi's rotation method.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">2.</span>
+                <span class="question-text">Identify all Eigen values and corresponding eigenvectors of A = <span class="matrix">[1 6 1; 1 2 0; 0 0 3]</span> using Power method.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">3.</span>
+                <span class="question-text">Identify all Eigen values and corresponding eigenvectors of A = <span class="matrix">[1/√2 2/√2 3/√2; 2/√2 1]</span> using Jacobi's rotation method.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">4.</span>
+                <span class="question-text">Identify all Eigen values and corresponding eigenvectors of A = <span class="matrix">[5 0 1; 0 -2 0; 1 0 5]</span> using Power method.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">5.</span>
+                <span class="question-text">Solve the homogeneous equations: x + 3y - 2z = 0, 2x - y + 4z = 0, x - 11y + 14z = 0</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">6.</span>
+                <span class="question-text">Solve the following system of equations by Gauss Jordan method: 10x + y + z = 12, 2x + 10y + z = 13, x + y + 5z = 7</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">7.</span>
+                <span class="question-text">Solve the given system of equations using Gauss elimination method: 2x + 3y - z = 5, 4x + 4y - 3z = 3, 2x - 3y + 2z = 2</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- UNIT III -->
+    <div class="unit-section page-break">
+        <div class="unit-header">UNIT - III: VECTOR SPACES</div>
+        
+        <div class="question-category">
+            <div class="category-title">Short Answer Questions (2-3 Marks)</div>
+            
+            <div class="question">
+                <span class="question-number">1.</span>
+                <span class="question-text">Let V = R³, show that W = {(a₁, a₂, a₃): a₁ = a₃ + 2} is not a subspace of V.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">2.</span>
+                <span class="question-text">Define vector space.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">3.</span>
+                <span class="question-text">Define direct sum of W₁ and W₂.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">4.</span>
+                <span class="question-text">Show that if x, y and z are vectors in a vector space V such that x + z = y + z then x = y.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">5.</span>
+                <span class="question-text">Define basis and dimension of a vector space.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">6.</span>
+                <span class="question-text">Let V = R⁴. Show that the vectors v₁ = (1,0,1,0), v₂ = (0,1,0,1), v₃ = (0,0,0,2) are linearly independent.</span>
+            </div>
+        </div>
+
+        <div class="question-category">
+            <div class="category-title">Long Answer Questions (10-15 Marks)</div>
+            
+            <div class="question">
+                <span class="question-number">1.</span>
+                <span class="question-text">Let V be a vector space and W a subset of V. Identify W is a subspace of V if and only if the following 3 conditions hold: (a) 0 ∈ W, (b) x + y ∈ W whenever x ∈ W and y ∈ W, (c) cx ∈ W whenever c ∈ F, x ∈ W.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">2.</span>
+                <span class="question-text">Let W₁ and W₂ be the subspaces of V. Identify W₁ ∪ W₂ is a subspace of V if and only if W₁ ⊆ W₂ or W₂ ⊆ W₁.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">3.</span>
+                <span class="question-text">Identify the set W = {(a₁, a₂, a₃) ∈ R³: 2a₁ - 7a₂ + a₃ = 0} is a subspace of V.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">4.</span>
+                <span class="question-text">Let W₁ and W₂ be subspaces of a finite-dimensional vector space V. Construct necessary and sufficient conditions on W₁ and W₂ so that dim(W₁ ∩ W₂) = dim(W₁).</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">5.</span>
+                <span class="question-text">Construct the following set is basis for P₂(R): {-1 + 2x + 4x², 3 - 4x - 10x², -2 - 5x - 6x²}.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">6.</span>
+                <span class="question-text">Let V be the set of sequences {aₙ} of real numbers. For {aₙ}, {bₙ} ∈ V and any real t, define {aₙ} + {bₙ} = {aₙ + bₙ} and t{aₙ} = {taₙ}. Identify with these operations, V is a vector space over R.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">7.</span>
+                <span class="question-text">Identify the following set is basis for P₂(R): {-1 - x + 2x², 2 + x - 2x², 1 - 2x + 4x²}.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">8.</span>
+                <span class="question-text">Build replacement theorem on vector spaces.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">9.</span>
+                <span class="question-text">Construct the set of all polynomials over a field F is a vector space V.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">10.</span>
+                <span class="question-text">Let W₁ and W₂ be subspaces of a vector space V. Construct W₁ + W₂ is a subspace of V that contains both W₁ and W₂.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- UNIT IV -->
+    <div class="unit-section page-break">
+        <div class="unit-header">UNIT - IV: LINEAR TRANSFORMATION</div>
+        
+        <div class="question-category">
+            <div class="category-title">Short Answer Questions (2-3 Marks)</div>
+            
+            <div class="question">
+                <span class="question-number">1.</span>
+                <span class="question-text">Define Linear transformation.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">2.</span>
+                <span class="question-text">Find the following are linear transformation T: R → R by T(x) = x².</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">3.</span>
+                <span class="question-text">Find the linear transformation determined by the following matrix T: V₂(R) → V₂(R) given by <span class="matrix">[cos θ -sin θ; sin θ cos θ]</span> with respect to the standard basis.</span>
+            </div>
+        </div>
+
+        <div class="question-category">
+            <div class="category-title">Long Answer Questions (10-15 Marks)</div>
+            
+            <div class="question">
+                <span class="question-number">1.</span>
+                <span class="question-text">Let V and W be the vector spaces and T: V → W be linear. Then show that N(T) and R(T) are subspaces of V and W respectively.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">2.</span>
+                <span class="question-text">Illustrate T: V₂(R) → V₂(R) defined by T(a,b) = (2a - 3b, a + 4b) is a linear transformation.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">3.</span>
+                <span class="question-text">Let T: V₃ → V₃(R) be a linear map defined by T(x₁, x₂, x₃) = (x₁ - x₂, 2x₂ + x₃, 0). Interpret N(T) and R(T). Also illustrate the nullity T and Rank T.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">4.</span>
+                <span class="question-text">Let T: R² → R³ defined by T(a₁, a₂) = (a₁ + a₂, 0, 2a₁ - a₂). Show that T is linear.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">5.</span>
+                <span class="question-text">Let T be the linear operator on V₃(R) defined by T[a₁; a₂; a₃] = [4a₁ + a₃; 2a₁ + 3a₂ + 2a₃; a₁ + 4a₃] and β be the standard basis for V₃(R). Interpret the Eigen space of T, corresponds to each Eigen value.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">6.</span>
+                <span class="question-text">Explain Dimension theorem.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">7.</span>
+                <span class="question-text">Let T: P₂(R) → P₃(R) be the linear transformation defined by T[f(x)] = 2f'(x) + 3∫₀ˣ f(x)dx. Show that T is one to one or not.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">8.</span>
+                <span class="question-text">Illustrate the matrix P that Diagonalise the matrix A = <span class="matrix">[2 2 -7; 2 1 2; 0 1 3]</span> by similarity transformation and hence find A⁴.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">9.</span>
+                <span class="question-text">Illustrate the matrix P that Diagonalises the matrix A = <span class="matrix">[2 2 1; 1 3 1; 1 2 2]</span> by similarity transformation and hence find A⁴.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">10.</span>
+                <span class="question-text">Illustrate the matrix P that Diagonalise the matrix A = <span class="matrix">[2 1 -1; 1 1 -2; -1 -2 1]</span> by means of an orthogonal transformation.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- UNIT V -->
+    <div class="unit-section page-break">
+        <div class="unit-header">UNIT - V: INNER PRODUCT SPACES</div>
+        
+        <div class="question-category">
+            <div class="category-title">Short Answer Questions (2-3 Marks)</div>
+            
+            <div class="question">
+                <span class="question-number">1.</span>
+                <span class="question-text">Define Norm.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">2.</span>
+                <span class="question-text">Define Inner product space.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">3.</span>
+                <span class="question-text">Let V = R² and S = {(1,0), (0,1)}. Find S is orthonormal basis or not.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">4.</span>
+                <span class="question-text">Write parallelogram law formula.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">5.</span>
+                <span class="question-text">Define orthogonality.</span>
+            </div>
+        </div>
+
+        <div class="question-category">
+            <div class="category-title">Long Answer Questions (10-15 Marks)</div>
+            
+            <div class="question">
+                <span class="question-number">1.</span>
+                <span class="question-text">Illustrate the matrix P that Diagonalises the matrix A = <span class="matrix">[3 -1 0; -1 2 -1; 0 -1 3]</span> by means of an orthogonal transformation.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">2.</span>
+                <span class="question-text">Illustrate Gram-Schmidt process to construct an orthonormal basis for V₃(R) with the standard inner product for the basis {V₁, V₂, V₃} where V₁ = (1,0,1), V₂ = (1,3,1), V₃ = (3,2,1).</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">3.</span>
+                <span class="question-text">Illustrate Gram-Schmidt process to construct an orthonormal basis for V₃(R) with the standard inner product for the basis {V₁, V₂, V₃} where V₁ = (2,1,0), V₂ = (4,1,0), V₃ = (4,0,1).</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">4.</span>
+                <span class="question-text">Let V = C³, with inner product ⟨x,y⟩ = x₁ȳ₁ + x₂ȳ₂ + x₃ȳ₃ where x = (x₁,x₂,x₃) & y = (y₁,y₂,y₃). Let x = (2,1+i,i) & y = (2-i,2,1+2i). Show:
+                <br>(i) ⟨x,y⟩
+                <br>(ii) ‖x‖ & ‖y‖
+                <br>(iii) ‖x‖ + ‖y‖
+                <br>(iv) Cauchy-Schwartz inequality & Triangle inequality.</span>
+            </div>
+            
+            <div class="question">
+                <span class="question-number">5.</span>
+                <span class="question-text">Let V be an inner product space, for x,y,z ∈ V and c ∈ F, Show that whether the following are true:
+                <br>(i) ⟨x, y + z⟩ = ⟨x,y⟩ + ⟨x,z⟩
+                <br>(ii) ⟨x, cy⟩ = c⟨x,y⟩
+                <br>(iii) ⟨x,0⟩ = ⟨0,x⟩ = 0
+                <br>(iv) ⟨x,x⟩ = 0 if and only if x = 0
+                <br>(v) ⟨x,y⟩ = ⟨x,z⟩ for all x ∈ V then y = z</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p><strong>Linear Algebra Question Bank - Complete Unit Wise Collection</strong></p>
+        <p>KIT-Kalaignarkarunanidhi Institute of Technology | Regulation R2023</p>
+        <p>Course Code: B23MAT405 | Total Questions: 150+ | All Units Covered</p>
+    </div>
+
+    <script>
+        // Add print functionality
+        function printQuestionBank() {
+            window.print();
+        }
+        
+        // Add keyboard shortcut for printing
+        document.
